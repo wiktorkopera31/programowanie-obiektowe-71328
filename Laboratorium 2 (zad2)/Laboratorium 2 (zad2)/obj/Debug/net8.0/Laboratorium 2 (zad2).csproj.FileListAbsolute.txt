@@ -1,0 +1,14 @@
+C:\Users\wikto\source\repos\Laboratorium 2 (zad2)\Laboratorium 2 (zad2)\bin\Debug\net8.0\Laboratorium 2 (zad2).exe
+C:\Users\wikto\source\repos\Laboratorium 2 (zad2)\Laboratorium 2 (zad2)\bin\Debug\net8.0\Laboratorium 2 (zad2).deps.json
+C:\Users\wikto\source\repos\Laboratorium 2 (zad2)\Laboratorium 2 (zad2)\bin\Debug\net8.0\Laboratorium 2 (zad2).runtimeconfig.json
+C:\Users\wikto\source\repos\Laboratorium 2 (zad2)\Laboratorium 2 (zad2)\bin\Debug\net8.0\Laboratorium 2 (zad2).dll
+C:\Users\wikto\source\repos\Laboratorium 2 (zad2)\Laboratorium 2 (zad2)\bin\Debug\net8.0\Laboratorium 2 (zad2).pdb
+C:\Users\wikto\source\repos\Laboratorium 2 (zad2)\Laboratorium 2 (zad2)\obj\Debug\net8.0\Laboratorium 2 (zad2).GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\wikto\source\repos\Laboratorium 2 (zad2)\Laboratorium 2 (zad2)\obj\Debug\net8.0\Laboratorium 2 (zad2).AssemblyInfoInputs.cache
+C:\Users\wikto\source\repos\Laboratorium 2 (zad2)\Laboratorium 2 (zad2)\obj\Debug\net8.0\Laboratorium 2 (zad2).AssemblyInfo.cs
+C:\Users\wikto\source\repos\Laboratorium 2 (zad2)\Laboratorium 2 (zad2)\obj\Debug\net8.0\Laboratorium 2 (zad2).csproj.CoreCompileInputs.cache
+C:\Users\wikto\source\repos\Laboratorium 2 (zad2)\Laboratorium 2 (zad2)\obj\Debug\net8.0\Laboratorium 2 (zad2).dll
+C:\Users\wikto\source\repos\Laboratorium 2 (zad2)\Laboratorium 2 (zad2)\obj\Debug\net8.0\refint\Laboratorium 2 (zad2).dll
+C:\Users\wikto\source\repos\Laboratorium 2 (zad2)\Laboratorium 2 (zad2)\obj\Debug\net8.0\Laboratorium 2 (zad2).pdb
+C:\Users\wikto\source\repos\Laboratorium 2 (zad2)\Laboratorium 2 (zad2)\obj\Debug\net8.0\Laboratorium 2 (zad2).genruntimeconfig.cache
+C:\Users\wikto\source\repos\Laboratorium 2 (zad2)\Laboratorium 2 (zad2)\obj\Debug\net8.0\ref\Laboratorium 2 (zad2).dll
