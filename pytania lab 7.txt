@@ -1,0 +1,48 @@
+1. Rola klasy Contact: Reprezentuje pojedynczy rekord z bazy danych, czyli jeden kontakt, przechowując jego dane jako właściwości. Jest powiązana z tabelą Contacts.
+
+
+
+2. Opcjonalne pola Phone i Email: Oznaczenie ich jako string? wynika z faktu, że w definicji tabeli SQL kolumny te dopuszczają wartości NULL.
+
+
+3. Cel architektury warstwowej: Stosuje się ją w celu uzyskania lepszej skalowalności, łatwiejszego utrzymania kodu, elastyczności rozwoju oraz czytelnego podziału odpowiedzialności pomiędzy elementy systemu.
+
+
+4. Odpowiedzialność ContactRepository: Jest to warstwa dostępu do danych (DAL), która odpowiada za komunikację z bazą danych. Kod SQL znajduje się tutaj, aby odizolować logikę bazodanową od reszty aplikacji.
+
+
+5. ConnectionString: Jest to łańcuch znaków zarządzający połączeniem z bazą danych. Musi zawierać co najmniej adres serwera (Server) oraz nazwę bazy danych (Database).
+
+
+
+6. Klasy ADO.NET: W repozytorium wykorzystywane są: SqlConnection (połączenie), SqlCommand (zapytania), SqlDataReader (odczyt) oraz SqlTransaction (transakcje).
+
+
+7. Zastosowanie parametrów: Używa się ich zamiast konkatenacji w celu zachowania bezpieczeństwa i uniknięcia błędów, co jest jedną z najważniejszych zasad pracy z ADO.NET.
+
+
+8. Metoda ExecuteNonQuery: Wykorzystujemy ją do operacji INSERT, UPDATE i DELETE, ponieważ służy ona do wykonywania zapytań, które nie zwracają zestawu wierszy, a jedynie informację o liczbie zmodyfikowanych rekordów.
+
+
+9. Pobieranie ID po INSERT: Program pobiera identyfikator nowo dodanego kontaktu, wykonując zapytanie SELECT CAST(SCOPE_IDENTITY() AS int) przy użyciu metody ExecuteScalar().
+
+
+
+10. Wyszukiwanie i operator LIKE: Wyszukiwanie pozwala na znalezienie kontaktów po fragmencie nazwiska. Operator LIKE umożliwia dopasowanie wzorca tekstowego zamiast szukania dokładnej wartości.
+
+
+
+11. Transakcja bazodanowa: Jest to mechanizm zapewniający wykonanie grupy operacji jako jednej całości (wszystko albo nic). W BulkInsert służy do masowego, bezpiecznego wstawiania rekordów.
+
+
+12. Błąd podczas BulkInsert: Jeśli wystąpi błąd, wywoływana jest metoda Rollback(), która wycofuje wszystkie dotychczasowe zmiany wprowadzone w ramach tej transakcji, chroniąc bazę przed niespójnością.
+
+
+13. Klasa Logger: Służy do zapisywania działań aplikacji do pliku logs.txt. Rejestruje datę, poziom (INFO/ERROR) oraz treść operacji, takich jak dodanie, edycja czy błędy połączenia.
+
+
+
+14. Zabezpieczenie przed błędnym ID: Program wykorzystuje metodę int.TryParse(), która sprawdza, czy wprowadzony przez użytkownika tekst jest poprawną liczbą całkowitą przed dalszym przetwarzaniem.
+
+
+15. Brak SQL w Program.cs: Warstwa prezentacji (Program.cs) odpowiada wyłącznie za interakcję z użytkownikiem. Nie zawiera SQL, aby zmiana bazy danych nie wymagała modyfikacji interfejsu.

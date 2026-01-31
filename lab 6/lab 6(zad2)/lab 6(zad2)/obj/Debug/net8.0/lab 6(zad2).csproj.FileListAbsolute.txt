@@ -1,0 +1,15 @@
+C:\Users\wikto\source\repos\lab 6(zad2)\lab 6(zad2)\bin\Debug\net8.0\db.json
+C:\Users\wikto\source\repos\lab 6(zad2)\lab 6(zad2)\bin\Debug\net8.0\lab 6(zad2).exe
+C:\Users\wikto\source\repos\lab 6(zad2)\lab 6(zad2)\bin\Debug\net8.0\lab 6(zad2).deps.json
+C:\Users\wikto\source\repos\lab 6(zad2)\lab 6(zad2)\bin\Debug\net8.0\lab 6(zad2).runtimeconfig.json
+C:\Users\wikto\source\repos\lab 6(zad2)\lab 6(zad2)\bin\Debug\net8.0\lab 6(zad2).dll
+C:\Users\wikto\source\repos\lab 6(zad2)\lab 6(zad2)\bin\Debug\net8.0\lab 6(zad2).pdb
+C:\Users\wikto\source\repos\lab 6(zad2)\lab 6(zad2)\obj\Debug\net8.0\lab 6(zad2).GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\wikto\source\repos\lab 6(zad2)\lab 6(zad2)\obj\Debug\net8.0\lab 6(zad2).AssemblyInfoInputs.cache
+C:\Users\wikto\source\repos\lab 6(zad2)\lab 6(zad2)\obj\Debug\net8.0\lab 6(zad2).AssemblyInfo.cs
+C:\Users\wikto\source\repos\lab 6(zad2)\lab 6(zad2)\obj\Debug\net8.0\lab 6(zad2).csproj.CoreCompileInputs.cache
+C:\Users\wikto\source\repos\lab 6(zad2)\lab 6(zad2)\obj\Debug\net8.0\lab 6(zad2).dll
+C:\Users\wikto\source\repos\lab 6(zad2)\lab 6(zad2)\obj\Debug\net8.0\refint\lab 6(zad2).dll
+C:\Users\wikto\source\repos\lab 6(zad2)\lab 6(zad2)\obj\Debug\net8.0\lab 6(zad2).pdb
+C:\Users\wikto\source\repos\lab 6(zad2)\lab 6(zad2)\obj\Debug\net8.0\lab 6(zad2).genruntimeconfig.cache
+C:\Users\wikto\source\repos\lab 6(zad2)\lab 6(zad2)\obj\Debug\net8.0\ref\lab 6(zad2).dll
